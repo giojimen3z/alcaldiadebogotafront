@@ -1,11 +1,11 @@
 import * as React from 'react';
-import Typography from './FooterStyles';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Grid from '@mui/material/Grid';
 import FeaturedPost from './EntidadesCard';
+import Typography from '@mui/material/Typography';
 
 const featuredPosts = [
   {
