@@ -52,6 +52,7 @@
   text-align: center;
   border-bottom: 1px solid white;
   border-top: 3px solid white;
+  cursor: default;
 }
 
 .navbar .navbar-list .menu-option ul li {
@@ -151,6 +152,7 @@
   background-color: #f47b2d;
 }
 
-.navbar .navbar-list .orange .menu-option ul li:not(li:first-child):hover {
+.menu-option ul li:not(li:first-child):hover {
   background-color: #f59352;
 }
+
