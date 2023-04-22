@@ -1,0 +1,14 @@
+.redes-bogotema {
+  border-radius: 40px;
+  cursor: pointer;
+  width: 35px;
+  background-color: #fff;
+}
+
+path { fill: #414752; }
+
+.redes-bogotema:hover path { fill: white; }
+
+.facebook:hover { background-color: #3b5998; }
+
+.twitter:hover { background-color: #00acee; }
