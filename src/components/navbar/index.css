@@ -1,0 +1,159 @@
+.navbar {
+  width: 100%;
+  border-top: 1px solid #a0a0a0;
+}
+
+.navbar .navbar-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar .navbar-list li {
+  border-top: none;
+  flex: 0 0 17%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.navbar .navbar-list li > div:first-child {
+  border: 1px solid #a0a0a0;
+}
+
+.navbar .navbar-list li .icon-container {
+  width: 25%;
+  margin: 10px auto 0;
+  display: block;
+}
+
+.navbar .navbar-list li .icon-label {
+  text-align: center;
+  text-transform: uppercase;
+  color: #666;
+  font-size: 1.125em;
+  font-weight: 700;
+  width: 100%;
+  display: block;
+}
+
+.navbar .navbar-list .menu-option {
+  display: none;
+}
+
+.navbar .navbar-list .menu-option ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.navbar .navbar-list .menu-option ul li:first-child {
+  text-align: center;
+  border-bottom: 1px solid white;
+  border-top: 3px solid white;
+  cursor: default;
+}
+
+.navbar .navbar-list .menu-option ul li {
+  border: none;
+  padding: 12px 10px;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.navbar .navbar-list li:hover .menu-option {
+  display: block;
+}
+
+.navbar .navbar-list .green:hover div:first-child {
+  color: #fff;
+  border: 1px solid #939315;
+}
+
+.navbar .navbar-list .green:hover div:first-child .icon-label {
+  color: #fff;
+}
+
+.navbar .navbar-list .green:hover {
+  background-color: #939315;
+}
+
+
+.navbar .navbar-list .green .menu-option ul li:not(li:first-child):hover {
+  background-color: #b5b515;
+}
+
+.navbar .navbar-list .red:hover div:first-child {
+  color: #fff;
+  border: 1px solid #e42037;
+}
+
+.navbar .navbar-list .red:hover div:first-child .icon-label {
+  color: #fff;
+}
+
+.navbar .navbar-list .red:hover {
+  background-color: #e42037;
+}
+
+.navbar .navbar-list .red .menu-option ul li:not(li:first-child):hover {
+  background-color: #fa5064;
+}
+
+.navbar .navbar-list .blue:hover div:first-child {
+  color: #fff;
+  border: 1px solid #337ab7;
+}
+
+.navbar .navbar-list .blue:hover div:first-child .icon-label {
+  color: #fff;
+}
+
+.navbar .navbar-list .blue:hover {
+  background-color: #337ab7;
+}
+
+
+.navbar .navbar-list .blue .menu-option ul li:not(li:first-child):hover {
+  background-color: #2181d6;
+}
+
+.navbar .navbar-list .orange:hover div:first-child {
+  color: #fff;
+  border: 1px solid #f47b2d;
+}
+
+.navbar .navbar-list .orange:hover div:first-child .icon-label {
+  color: #fff;
+}
+
+.navbar .navbar-list .aqua:hover {
+  background-color: #00aa9f;
+}
+
+
+.navbar .navbar-list .aqua .menu-option ul li:not(li:first-child):hover {
+  background-color: #24d9cd;
+}
+
+.navbar .navbar-list .aqua:hover div:first-child {
+  color: #fff;
+  border: 1px solid #00aa9f;
+}
+
+.navbar .navbar-list .aqua:hover div:first-child .icon-label {
+  color: #fff;
+}
+
+.navbar .navbar-list .orange:hover {
+  background-color: #f47b2d;
+}
+
+.menu-option ul li:not(li:first-child):hover {
+  background-color: #f59352;
+}
+

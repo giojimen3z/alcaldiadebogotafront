@@ -1,0 +1,111 @@
+.card {
+  border: 1px solid #a0a0a0;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: -6px 8px 12px #d1d1d1;
+  top: -2px;
+  right: -2px;
+}
+
+.card .category {
+  font-weight: 700;
+  height: 4%;
+  font-family: Rajdhani,sans-serif;
+  text-transform: uppercase;
+  padding: .5rem 1.5rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}  
+
+.card .green { background-color: #8CBE23; }
+.card .green-light { background-color: #939315; }
+.card .red-light { background-color: #E60B61; }
+.card .purple { background-color: #5D4294; }
+.card .purple-light { background-color: #934795; }
+.card .orange { background-color: #F47B2D; }
+
+.card .image-content { height: 46%; }
+
+.card .image-content-large { height: 66%; }
+
+.card .card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.card .icon {
+  position: absolute;
+  top: 40%;
+  color: #fff;
+  padding: 0.2rem 1rem 0.5rem;
+  font-size: 2rem;
+  opacity: .7;
+  font-weight: 400;
+}
+
+.card .icon:hover { opacity: 0; }
+
+.card .btn-left { left: 0;}
+.card .btn-left::before {
+  content: "\e079";
+}
+
+.card .btn-right { right: 0; }
+.card .btn-right::before {
+  content: "\e080";
+}
+
+.card .text-content {
+  padding: 1.5rem;
+}
+
+.text-content h2 {
+  margin-top: 0;
+}
+
+.card .text-content-large {
+  padding: 1.5rem;
+  height: 30%;
+}
+
+.card .date { 
+  font-family: Rajdhani,sans-serif;
+  font-size: 1.25em;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.card .social-media {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  margin: 0;
+  bottom: -20px;
+}
+
+.card .social .redes-bogotema { width: 35px; }
+
+.card .social-share {
+  text-transform: uppercase;
+  font-size: .825em;
+  color: #666;
+  font-family: Rajdhani,Adobe Blank;
+  font-weight: 700;
+  line-height: 32px;
+  padding: 5px 0;
+}
+
+.card .social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 0;
+}
