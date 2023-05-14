@@ -1,0 +1,67 @@
+.notice-item {
+  display: flex;
+  width: 100%;
+  height: 160px;
+  padding: 2rem 0 1rem;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+}
+
+.notice-item:last-child { border-bottom: none; }
+
+.notice-item .content-avatar {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-avatar .image {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.content-avatar .date {
+  font-size: 1.2em;
+  height: 30px;
+  font-family: Rajdhani,sans-serif;
+  font-weight: 700;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.notice-item .content-info {
+  width: 70%;
+  height: 100%;
+  position: relative;
+}
+
+.content-info .categoria {
+  font-size: 1em;
+  color: #333;
+  text-transform: uppercase;
+  font-family: Rajdhani,sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.content-info .social {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.content-info .title {
+  font-family: Ubuntu,sans-serif;
+  font-weight: 700;
+  color: #333;
+  text-align: left;
+  line-height: 1.3em;
+  font-size: 1.2em;
+}
