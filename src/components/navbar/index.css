@@ -157,3 +157,10 @@
   background-color: #f59352;
 }
 
+.menu-option .header-main__video {
+  width: 100%;
+  height: 180px;
+  margin-top: 10px;
+  display: block;
+}
+
